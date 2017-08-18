@@ -1,0 +1,285 @@
+.navbar {
+  text-align: center;
+  background-color: #222831;
+}
+
+ul {
+  text-align: center;
+}
+
+.nav-list {
+  display: inline-block;
+  margin-left:90px;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: #EEEEEE;
+  font-size: 25px;
+}
+
+.navbar-right {
+  margin-left: 90px;
+}
+
+.navbar-header {
+  text-decoration: none;
+  color: orange;
+}
+
+.navbar-brand:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.navbar-header:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.form-login {
+  display: block;
+  padding: 15px;
+}
+
+.login-error {
+  color: red;
+}
+
+.registerButton {
+  background-color: green;
+  color: white;
+}
+
+.match {
+  border: 1px solid green;
+}
+
+.dontMatch {
+  border: 1px solid red;
+}
+
+.passHelp {
+  font-size: 10px;
+}
+
+.newListButton {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid purple;
+  background-color: purple;
+  color: white;
+  font-size: 15px;
+}
+
+.newListButton:hover {
+  cursor: pointer;
+  color: purple;
+  background-color: white;
+}
+
+.newTaskButton {
+  margin-top: 15px;
+  padding: 8px 13px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid #393E46;
+  background-color: #393E46;
+  color: #FAFAFA;
+  font-size: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0px 1px 1px black;
+}
+
+.newTaskButton:hover {
+  cursor: pointer;
+  color: blue;
+  background-color: white;
+}
+
+.addTask {
+  padding: 5px 0px;
+}
+
+.newListActions {
+  padding: 30px 0px;
+}
+
+.listActionCancel {
+  padding: 8px 13px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+}
+
+.listActionCancel:hover {
+  cursor: pointer;
+  color: red;
+  background-color: white;
+}
+
+.filter {
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid #EEEEEE;
+  color: #EEEEEE;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.filter:hover {
+  cursor: pointer;
+  background-color: #FDFFE7;
+  border-color: #FDFFE7;
+  color: #3E3E3E;
+}
+
+.filter-active {
+  margin-left: 5px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid #FDFFE7;
+  color: #3E3E3E;
+  background-color: #FDFFE7;
+  font-size: 12px;
+
+}
+
+.listActionSave {
+  padding: 8px 13px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.listActionSave:hover {
+  cursor: pointer;
+  color: green;
+  background-color: white;
+}
+
+.myLists {
+  margin-top: 30px;
+}
+@media screen and (max-width: 1900px) {
+  .list {
+    text-align: center;
+    width: 24%;
+    margin: 15px 0px 0px 1%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #005691;
+    box-shadow: 3px 3px 1px #888888;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .list {
+    width: 49%;
+    margin-left: 1%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .list {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+.list-title {
+  font-size: 25px;
+  border-bottom: 1px solid black;
+  color: #FAFAFA;
+  cursor: text;
+  font-weight: 500;
+  font-family: monospace;
+}
+
+.list-item {
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.list-text {
+  font-size: 18px;
+  display: inline;
+  margin-right: 15px;
+  color: white;
+  font-family: monospace;
+}
+
+.list-text:hover {
+  cursor: pointer;
+  color: lightgrey;
+}
+
+.task-mark {
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  margin-right: 5px;
+  color: #40514E;
+}
+
+.task-mark:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.task-delete {
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid pink;
+  background-color: pink;
+  color: #40514E;
+}
+
+.task-delete:hover {
+  color: white;
+  cursor: pointer;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.saveTaskButton {
+  margin-bottom: 15px;
+}
+
+.shareButton {
+  border-radius: 5px;
+  padding: 10px 30px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.shareButton:hover {
+  color: black;
+  background-color: white;
+}
